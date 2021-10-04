@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ScanMenusActivity">
+
+    <LinearLayout
+        android:id="@+id/menu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_add_info" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_additem" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_addsession" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_backbutton" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_burgermenu" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_color" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_compare" />
+
+        <Button
+            android:id="@+id/open_menu1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/open_session_menu_layerlist" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_export" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_filter_selection" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_filters" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_flashlight" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_grey_lock" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_grey_unlock" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_histogram" />
+
+
+        <Button
+            android:id="@+id/open_menu2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/open_session_menu_layerlist" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_invert" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_laser" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_reports" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_revert" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_scan_activity" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_select" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_selectall" />
+
+
+        <Button
+            android:id="@+id/open_menu3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/open_session_menu_layerlist" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_session_navigator" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_sessionnavigator" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_settings" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_suspicioustag" />
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_takephoto" />
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_trash" />
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_white_items" />
+
+
+        <Button
+            android:id="@+id/open_menu4"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/open_session_menu_layerlist" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_white_lock" />
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_white_sessions" />
+
+        <Button
+            android:id="@+id/button31"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_icon_white_unlock" />
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/ic_text_viken_falcon" />
+
+        <Button
+            android:id="@+id/open_menu5"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="1dp"
+
+            android:background="@drawable/open_session_menu_layerlist" />
+    </LinearLayout>
+</LinearLayout>

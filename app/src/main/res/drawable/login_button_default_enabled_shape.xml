@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/loginButton" />
+
+    <corners android:radius="27dp" />
+
+    <gradient
+        android:angle="45"
+        android:centerX="5%"
+        android:startColor="@color/loginButton"
+        android:endColor="@color/loginButton"
+        android:type="linear"
+        />
+
+    <size
+        android:width="@dimen/login_widget_width"
+        android:height="@dimen/login_widget_height"
+        />
+</shape>

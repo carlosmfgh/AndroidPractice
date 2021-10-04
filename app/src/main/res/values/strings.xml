@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ConstraintLayoutPractice</string>
+    <string name="this_device_produces_ionizing">This device produces ionizing radiation when the XRAY warning lights are on.</string>
+    <string name="this_device_contains_class2">This device contains a CLASS 2 laser product.  Do not stare into the beams.</string>
+    <string name="by_clicking_accept">By clicking ACCEPT you are acknowledging these warnings.</string>
+
+    <string name="text_username">Username</string>
+    <string name="text_password">Password</string>
+    <string name="title_activity_login">Login</string>
+
+    <string name="select_user_type">Select User Type</string>
+    <string name="administrator">Administrator</string>
+    <string name="user">User</string>
+    <string name="xray_technologist">Xray Technologist</string>
+
+    <string name="text_warning">Warning</string>
+    <string name="equipment_operated_by_authorized_personnel">This equipment should be operated only by authorized personnel.</string>
+    <string name="do_not_expose_any_part">"Do not expose any part of the body to the beam."</string>
+
+
+</resources>
