@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@color/appStandardColor"
     tools:context=".MainActivity">
 
 
@@ -101,49 +101,140 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Drawer Layout"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/safety_seekbar" />
+        app:layout_constraintEnd_toStartOf="@+id/scan_menus"
+        app:layout_constraintTop_toBottomOf="@+id/edit_user" />
 
     <Button
         android:id="@+id/scan_menus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+
         android:text="Scan Menus"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/drawer_layout" />
+        app:layout_constraintEnd_toStartOf="@id/scan_view_title"
+        app:layout_constraintStart_toEndOf="@id/drawer_layout"
+        app:layout_constraintTop_toTopOf="@+id/drawer_layout" />
 
     <Button
         android:id="@+id/scan_view_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+
         android:text="Scan View Title"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scan_menus" />
+        app:layout_constraintStart_toEndOf="@id/scan_menus"
+        app:layout_constraintTop_toBottomOf="@+id/safety_seekbar" />
 
     <Button
         android:id="@+id/multi_nav_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+
         android:text="Multi Nav View"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/alarm_manager_activity"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scan_view_title" />
+        app:layout_constraintTop_toBottomOf="@+id/drawer_layout" />
 
     <Button
         android:id="@+id/alarm_manager_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
         android:text="Alarm Manager"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/multi_nav_view" />
+        app:layout_constraintStart_toEndOf="@id/multi_nav_view"
+        app:layout_constraintTop_toBottomOf="@+id/scan_menus" />
 
+    <Button
+        android:id="@+id/chronometer_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chronometer"
+        app:layout_constraintEnd_toStartOf="@id/rangebar_activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alarm_manager_activity" />
+
+    <Button
+        android:id="@+id/rangebar_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RangeBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/rangebar_activity"
+        app:layout_constraintTop_toBottomOf="@id/alarm_manager_activity" />
+
+    <Button
+        android:id="@+id/sessions_navigator_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sessions Nav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/rangebar_activity"
+        app:layout_constraintTop_toBottomOf="@id/alarm_manager_activity" />
+
+    <Button
+        android:id="@+id/switch_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        app:layout_constraintEnd_toStartOf="@+id/enum_activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chronometer_activity" />
+
+    <Button
+        android:id="@+id/enum_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enum"
+        app:layout_constraintStart_toEndOf="@+id/switch_activity"
+        app:layout_constraintTop_toBottomOf="@+id/chronometer_activity"
+        app:layout_constraintEnd_toStartOf="@id/progress_bar_dialog"/>
+
+    <Button
+        android:id="@+id/progress_bar_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ProgressBar"
+        app:layout_constraintStart_toEndOf="@id/enum_activity"
+        app:layout_constraintTop_toBottomOf="@id/sessions_navigator_activity"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/count_down_timer_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Countdown Timer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/switch_activity"
+        app:layout_constraintEnd_toStartOf="@+id/progress_bar_dialog_activity"/>
+
+
+    <Button
+        android:id="@+id/progress_bar_dialog_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ProgressBarDialog"
+        app:layout_constraintStart_toEndOf="@+id/count_down_timer_dialog"
+        app:layout_constraintTop_toBottomOf="@+id/enum_activity"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/alert_dialog_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/count_down_timer_dialog"
+        app:layout_constraintEnd_toStartOf="@+id/scan_activity"
+        />
+
+    <Button
+        android:id="@+id/scan_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan Activity"
+        app:layout_constraintStart_toEndOf="@+id/alert_dialog_activity"
+        app:layout_constraintTop_toBottomOf="@+id/progress_bar_dialog_activity"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

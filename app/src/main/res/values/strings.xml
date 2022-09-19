@@ -17,5 +17,9 @@
     <string name="equipment_operated_by_authorized_personnel">This equipment should be operated only by authorized personnel.</string>
     <string name="do_not_expose_any_part">"Do not expose any part of the body to the beam."</string>
 
-
+    <string name="cool">cool</string>
+    <string name="everyday">Everyday</string>
+    <string name="penetration">Penetration</string>
+    <string name="hi_res">Hi-Res</string>
+    <string name="none">None</string>
 </resources>

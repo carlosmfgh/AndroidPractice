@@ -24,9 +24,7 @@
         android:layout_gravity="start"
         app:menu="@menu/navigation_main_menu"
         android:background="@color/yellow"/>
-<!--    app:headerLayout="@layout/navigation_header"-->
 
-    <!-- Second navigation drawer -->
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigation_view_second"
         android:layout_width="125dp"

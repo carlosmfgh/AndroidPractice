@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CustomHorizontalProgressBar"
-    android:background="@color/yellow">
+    android:background="@color/appStandardColor">
 
     <TextView
         android:id="@+id/initializing"
@@ -45,7 +45,7 @@
         android:background="@drawable/progress_bar_background"
         android:indeterminate="false"
         android:max="100"
-        android:padding="8dp"
+        android:padding="10dp"
         android:progress="0"
         android:progressDrawable="@drawable/curved_progress_bar_layerlist"
         app:layout_constraintEnd_toEndOf="parent"

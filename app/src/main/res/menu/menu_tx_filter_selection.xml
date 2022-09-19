@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/everyday"
+            android:title="@string/everyday"
+            android:numericShortcut=""/>
+
+        <item
+            android:id="@+id/penetration"
+            android:title="@string/penetration"/>
+
+        <item
+            android:id="@+id/noFilter"
+            android:title="@string/none"/>
+
+    </group>
+</menu>

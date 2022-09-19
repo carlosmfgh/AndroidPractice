@@ -5,10 +5,54 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Test App"
+
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".ScanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlertDialogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressBarDialogActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CountDownTimerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".progressbar.ProgressBarDialogs"
+            android:exported="true" />
+        <activity
+            android:name=".ProgressBarDialog"
+            android:exported="true" />
+        <activity
+            android:name=".EnumExampleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SwitchActivity"
+            android:exported="true" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SessionsNavigatorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RangeBarExample"
+            android:exported="true" />
+        <activity
+            android:name=".ChronometerActivity"
+            android:exported="true" />
         <activity
             android:name=".alarm_manager.AlarmManagerActivity"
             android:exported="true" />
@@ -32,22 +76,11 @@
         <activity android:name=".UserAdministrationActivity" />
         <activity android:name=".CustomHorizontalProgressBar" />
         <activity
-            android:name=".LoginActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".RadiationWarning"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <receiver android:name=".alarm_manager.AlertManager"/>
-        <receiver android:name=".alarm_manager.AlarmManagerActivity$AnotherAlertManager"/>
-
+        <receiver android:name=".alarm_manager.AlertManager" />
+        <receiver android:name=".alarm_manager.AlarmManagerActivity$AnotherAlertManager" />
     </application>
 
 </manifest>
